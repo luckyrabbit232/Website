@@ -1,0 +1,132 @@
+#cs1300-gallery {
+  background-color: rgb(193, 199, 193);
+}
+
+/* Uncomment below if images are way too big.
+Selects all image tags and makes them 500px;
+ */
+
+
+.gallery-container {
+  /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+  display:flex;
+  justify-content: center;
+}
+
+.gallery-item{
+  width: auto;
+  height: 400px;
+}
+
+.middleContainer{
+  display:flex;
+  justify-content: center;
+}
+
+.title-container{
+  display:flex;
+  flex-direction: column;
+}
+
+.title-Text{
+  font-size: 50px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.title-Subtitle{
+  font-size: 25px;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.title-WebsiteLink{
+  font-size: 25px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.introduction_Text{
+  font-size: 18px;
+  text-align: left;
+  padding: 20px;
+}
+
+.introduction_Title{
+  font-size: 30px;
+  text-align: left;
+  padding: 10px;
+}
+
+.redesign_desktop_balsamiq{
+  display:flex;
+  width: 700px;
+  height: 1600px;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+
+}
+
+.redesign_mobile_balsamiq{
+  display:flex;
+  width: 600px;
+  height: 1700px;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+
+}
+
+.redesign_tablet_balsamiq{
+  display:flex;
+  width:1000px;
+  height: 1500px;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+
+}
+
+.visualdesign_title{
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+}
+
+.redesign_designguide{
+  display:flex;
+  width:1000px;
+  height: 500px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.redesign_desktop_figma{
+  display:flex;
+  width: 1200px;
+  height: 2000px;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+
+}
+
+.redesign_mobile_figma{
+  display:flex;
+  width:600px;
+  height: 2100px;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+}
+
+.redesign_tablet_figma{
+  display:flex;
+  width:600px;
+  height: 2000px;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+
+}
